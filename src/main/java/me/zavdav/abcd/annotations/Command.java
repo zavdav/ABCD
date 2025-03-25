@@ -17,5 +17,5 @@ public @interface Command {
      * The first label is the primary label, and as such
      * at least one label always has to be provided.
      */
-    String[] labels();
+    String[] value();
 }
